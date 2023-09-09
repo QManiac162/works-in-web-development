@@ -1,0 +1,56 @@
+h1 {
+    background-image: url("../image/smudge.jpg");
+    background-repeat: no-repeat;
+    text-indent: 100px;
+    color: aliceblue;
+}
+.cred {
+    text-indent: 20px;
+}
+p.one {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+}
+p.two {
+    background-color: #dddddddd;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;
+}
+p.three {
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px #111111;
+}
+p.four {
+    background-color: #bbbbbb;
+    color: #cccccc;
+    text-shadow: -1px -2px #666666;
+}
+p.five {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #666666;
+}
+
+p.intro:first-letter {
+    font-size: 200%;
+}
+p.intro:first-line {
+    font-weight: bold;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a:visited {
+    color: deepskyblue;
+}
+a:hover {
+    color: darkmagenta;
+    text-decoration: underline;
+}
+a:active {
+    color: yellowgreen;
+}

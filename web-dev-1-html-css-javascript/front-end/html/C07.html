@@ -1,0 +1,156 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="http://www.example.com/subscribe.php" method="get">
+            <p>This is where the form controls will appear.</p>
+        </form>
+
+        <form action="http://www.example.com/subscribe.php" method="get">
+            <label>Username:
+                <input type="text" name="username" size="15" maxlength="30">
+            </label>
+        </form>
+
+        <form action="http://www.example.com/subsribe.php" method="get">
+            <label>Password:
+                <input type="password" name="password" size="15" maxlength="30">
+            </label>
+        </form>
+
+        <form action="http://www.example.com.subsrcibe.php" method="get">
+            <label>What do you think of this?
+                <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+            </label>
+        </form>
+
+        <form action="http://www.example.com.subsrcibe.php" method="get">
+            <label>Please select your favourite genre:<br>
+                <input type="radio" name="genre" value="rock" checked="checked">Rock
+                <input type="radio" name="genre" value="pop">Pop
+                <input type="radio" name="genre" value="jazz">Jazz
+            </label>
+        </form><br>
+
+        <form action="http://www.example.com.subsrcibe.php" method="get">
+            <label>Please select your favourite music service:<br>
+                <input type="checkbox" name="service" value="itunes" checked="checked">iTunes
+                <input type="checkbox" name="service" value="lastfm">Last.fm
+                <input type="checkbox" name="service" value="spotify">Spotify
+            </label>
+        </form><br>
+
+        <form action="http://www.example.com.subscribe.php" method="get">
+            <label>What device do you listen to music on?<br>
+                <select name="devices">
+                    <option value="iPod">iPod</option>
+                    <option value="Radio">Radio</option>
+                    <option value="Computer">Computer</option>
+                </select>
+            </label>
+        </form><br>
+
+        <form action="http://www.example.com.subscribe.php" method="get">
+            <label>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)<br>
+                <select name="instruments" size="3" multiple="multiple">
+                    <option value="guitar" selected="selected">Guitar</option>
+                    <option value="keyboard">Keyboard</option>
+                    <option value="drums">Drums</option>
+                    <option value="bass">Bass</option>
+                </select>
+            </label>
+        </form><br>
+
+        <form action="http://www.example.com/upload.php" method="post">
+            <label>Upload your song in MP3 format:<br>
+                <input type="file" name="user-song"><br>
+                <input type="submit" value="Upload">
+            </label>
+        </form><br>
+
+        <form action="http://www.example.com/subscribe.php" method="post">
+            <label>Subscribe to our email list:
+                <input type="text" name="email">
+                <input type="submit" name="subscribe" value="Subscribe">
+            </label>
+        </form><br>
+
+        <form action="http://www.example.com/subscribe.php" method="post">
+            <label>Subscribe to our email list:
+                <input type="text" name="email">
+                <input type="image" src="../image/subscribe_button.png" alt="subcribe" width="100" height="30">
+            </label>
+        </form><br>
+
+        <form action="http://www.example.com/subscribe.php" method="post">
+            <label>Add resources:
+                <button type="submit">
+                    <img src="../image/add_button.png" alt="add" width="20" height="20">add
+                </button>
+                <input type="hidden" name="bookmark" value="lyrics">
+            </label>
+        </form><br>
+
+        <label>Age: <input type="text" name="age"></label><br>Gender:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label><br>
+
+        <fieldset>
+            <legend>Contact Details: </legend>
+            <label>email:<br>
+                <input type="text" name="email"><br>
+            </label>
+            <label>mobile:<br>
+                <input type="text" name="mobile"><br>
+            </label>
+            <label>telephone:<br>
+                <input type="text" name="telephone"><br>
+            </label>
+        </fieldset><br>
+
+        <form action="http://www.example.com/login/" method="post">
+            <label for="username">Username: 
+                <input type="text" name="username" required="required"><br><br>
+            </label>
+            <label for="password">Password: 
+                <input type="password" name="password" required="required">
+            </label>
+            <input type="submit" value="Submit">
+        </form><br><br>
+
+        <form action="http://www.example.com/bookings/" method="post">
+            <label for="username">Departure date:
+                <input type="date" name="depart">
+                <input type="submit" value="Submit">
+            </label>
+        </form><br><br>
+
+        <form action="http://www.example.com/subscribe.php" method="post">
+            <label>Please enter your email address: 
+                <input type="email" name="email">
+                <input type="submit" value="Submit">
+            </label>
+        </form>
+
+        <form action="http://www.example.com/profile.php" method="post">
+            <label>Please enter your website address: 
+                <input type="url" name="website">
+                <input type="submit" value="Submit">
+            </label>
+        </form><br>
+
+        <form action="http://www.example.org/search.php">
+            <label>Search: 
+                <input type="search" name="search" placeholder="Enter keyword">
+                <input type="submit" value="Submit">
+            </label>
+        </form><br><br><br>
+
+    </body>
+</html>

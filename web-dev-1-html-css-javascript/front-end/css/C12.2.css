@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2rem;
+}
+.intro {
+    font-weight: bold;
+    text-decoration: overline;
+}
+.credits {
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    word-spacing: 1em;
+    text-align: right;
+}
+h1 {
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-align: left;
+}
+h2 {
+    /* text-decoration: blink; not supported in chrome*/
+    text-transform: lowercase;
+}
+p {
+    text-align: justify;
+    line-height: 1.4rem;
+}
